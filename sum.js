@@ -1,4 +1,4 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+function testPassword(mdp) {
+  return mdp.length >= 12;
+}
+module.exports = testPassword;
